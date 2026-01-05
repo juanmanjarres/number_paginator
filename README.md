@@ -77,6 +77,7 @@ floatingActionButton: FloatingActionButton(
   child: const Icon(Icons.navigate_next),
 )
 ```
+Be aware that the page indices are zero-based! I.e. using `_controller.navigateToPage(0);` will navigate to page "1".
 
 ### Customize
 `NumberPaginator` version 1.0.0 and later provides more flexibility when it comes to customization.
